@@ -1,0 +1,33 @@
+li {
+  list-style-type: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+.search-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 0;
+  padding-left: 0;
+}
+.searched {
+  font-size: 10px;
+  font-family: 'Roboto';
+  color: #475569;
+}
+.arrow {
+  height: 20px;
+  width: 20px;
+  cursor: pointer;
+  outline: none;
+}
+
+@media screen and (min-width: 768px) {
+  .searched {
+    font-size: 14px;
+  }
+  .arrow {
+    height: 25px;
+    width: 25px;
+  }
+}
